@@ -1,0 +1,12 @@
+[Unit]
+Description=Perfect deployed techex
+
+[Service]
+Type=simple
+WorkingDirectory=/perfect-deployed/techex
+ExecStart=/perfect-deployed/techex/TechEx
+Restart=always
+PIDFile=/var/run/techex.pid
+
+[Install]
+WantedBy=multi-user.target
