@@ -1,0 +1,19 @@
+[INFO] [7884a473-7722-4553-aef0-cc396908fa46] [2017-09-13 15:37:18 GMT-05:00] Running setup: groceries
+[ERROR] [925f706d-5567-4c41-8adb-263cd3dbe488] [2017-09-13 15:37:20 GMT-05:00] Error msg: error("Connection Error")
+[ERROR] [ab6afcb2-9641-4148-b40d-1126fef6812e] [2017-09-13 15:37:20 GMT-05:00] Error msg: error("Connection Error")
+[INFO] [7a1ac296-04d2-4943-b480-a0de465a7ed3] [2017-09-13 15:37:48 GMT-05:00] Running setup: groceries
+[ERROR] [e65d14e0-ae7d-4f51-8ef8-16e9198991a9] [2017-09-13 15:37:51 GMT-05:00] Error msg: error("Connection Error")
+[ERROR] [ef13361c-6f0b-4706-b97a-fa881048f4f2] [2017-09-13 15:37:51 GMT-05:00] Error msg: error("Connection Error")
+[INFO] [5e976296-05f9-4cd2-8148-d0aba8bb3d07] [2017-09-13 15:43:08 GMT-05:00] Running setup: groceries
+[ERROR] [075147d3-bfbf-433c-96a2-9ade8237dd34] [2017-09-13 15:43:08 GMT-05:00] Error msg: error("Connection Error")
+[ERROR] [3e336574-b6fa-400b-9ee2-6f49a803e482] [2017-09-13 15:43:08 GMT-05:00] Error msg: error("Connection Error")
+[INFO] [e717ed38-91f1-4130-9a2f-9aeae88a4f68] [2017-09-13 15:44:13 GMT-05:00] Running setup: groceries
+[ERROR] [a0644ec2-3c4c-4a6a-bc7c-9782f4c484b3] [2017-09-13 15:44:13 GMT-05:00] Error msg: error("Connection Error")
+[ERROR] [52f70e66-7135-4b46-92a8-269a5812006d] [2017-09-13 15:44:13 GMT-05:00] Error msg: error("Connection Error")
+[INFO] [7a184fe2-536f-4b5a-a0f4-622da0eb8643] [2017-09-13 15:45:12 GMT-05:00] Running setup: groceries
+[INFO] [e5b09cea-29d3-42c5-881d-f5d5251096e9] [2017-09-13 15:48:14 GMT-05:00] Running setup: groceries
+[INFO] [f7c4e484-5379-4350-940a-d59dd1434f04] [2017-09-13 15:48:57 GMT-05:00] Running setup: groceries
+[INFO] [9568a4db-0b4b-4662-be12-b9d00c393067] [2017-09-13 15:50:16 GMT-05:00] Running setup: groceries
+[INFO] [02e59c9c-8518-4aaa-b7ba-e66269c13cdd] [2017-09-13 15:52:04 GMT-05:00] Running setup: groceries
+[INFO] [e163943b-9ec7-4660-92df-3e1295561f9f] [2017-09-13 15:52:34 GMT-05:00] Running setup: groceries
+[INFO] [5bcab499-cd4e-4ba6-bc7e-333b7aa6f185] [2017-09-13 15:53:35 GMT-05:00] Running setup: groceries

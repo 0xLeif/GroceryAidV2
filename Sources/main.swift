@@ -1,19 +1,23 @@
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
+import StORM
+import PostgresStORM
+
+PostgresConnector.host = "localhost"
+PostgresConnector.username	= "groceryAid"
+PostgresConnector.password	= "aid"
+PostgresConnector.database	= "groceryAidDB"
+PostgresConnector.port		= 5432
+
+let setupObj = GroceryItem()
+try? setupObj.setup()
 
 let server = HTTPServer()
 server.serverPort = 8080
 server.documentRoot = "webroot"
 
 var routes = Routes()
-
-routes.add(method: .get, uri: "/", handler: {
-	request, response in
-	response
-		.setBody(string: "Hello World!")
-		.completed()
-})
 
 func JSON(message: String, response: HTTPResponse) {
 	do {
@@ -28,20 +32,9 @@ func JSON(message: String, response: HTTPResponse) {
 	}
 }
 
-routes.add(method: .get, uri: "/hello/{times}") { (request, response) in
-	guard let times = request.urlVariables["times"],
-		let timesCount = Int(times) else {
-			response.completed(status: .badRequest)
-			return
-	}
-	var text = ""
-	stride(from: 0, to: timesCount, by: 1).forEach{ _ in
-		text += "Hello JSON\n"
-	}
-	JSON(message: text, response: response)
-}
 
-server.addRoutes(routes)
+let main = MainController()
+server.addRoutes(Routes(main.routes))
 
 do {
 	try server.start()
